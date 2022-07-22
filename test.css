@@ -1,0 +1,96 @@
+:root{
+    --card-padding: 1.5rem;
+    --gray-color: #f3f2f2;
+    --blue-color: rgb(7, 140, 180);
+    --bold-text: bold;
+}
+
+body{
+    margin: 3rem 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    color: var(--blue-color);;
+}
+
+main{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.subscribe__link{
+    color: gray;
+    font-weight: var(--bold-text);
+}
+
+.blog__title{
+    text-decoration: underline;
+    margin: 0;
+    opacity: 75%;
+}
+
+img{
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.gird__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.card__title__world{
+    color: var(--blue-color);
+    font-weight: var(--bold-text);
+}
+
+.card__post__title{
+    font-size: 1.5rem;
+}
+
+.card__blog{
+    border: 6px solid var(--gray-color);
+    height: 13rem;
+    position: relative;
+    padding: var(--card-padding);
+}
+
+.card__title__design{
+    color: green;
+    font-weight: var(--bold-text);
+}
+
+article h1, article .card__date, article .card__text{
+    margin: 5px;
+}
+
+.card__date{
+    color: gray;
+}
+
+.card__continue{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: var(--card-padding);
+}
+
+footer{
+    width: 50%;
+    margin: 0 auto;
+    padding: var(--card-padding);
+    text-align: center;
+    background-color: var(--gray-color);
+}
